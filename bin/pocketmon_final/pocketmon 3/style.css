@@ -1,0 +1,28 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  body {
+    cursor: none;
+    background-image: url(./images/bg.png);
+    background-repeat : no-repeat;
+    background-size : cover;
+  }
+  /* canvas */
+canvas{
+    display: block;
+    margin: 80px 0 0 300px;
+    max-width: 38%;
+}
+  /* mouse */
+  .mouse_img {
+    position: absolute;
+    width: 30px;
+  }
+  .tag {
+    position: absolute;
+    font-size: 20px;
+    margin: 20px 40px 20px;
+  }
